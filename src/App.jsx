@@ -1,4 +1,7 @@
 import './App.css'
+// so it it doesn't reload a page and uses react router
+import { Link } from "react-router-dom";
+
 
 // to use router, run 'npm install react-router-dom'
 // modify main..
@@ -11,7 +14,7 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <a href="profile">Profile page</a>
+            <Link to="profile">Profile page</Link>
           </li>
         </ul>
       </nav>
